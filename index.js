@@ -11,8 +11,6 @@ const CONFIG = {
   // Reference IDs
   IDS: {
     ga4: 'G-******',
-    googleAds: 'AW-******',
-    merchantCenter: 'MC-******'
   },
 
   CURRENCY: 'EUR',
@@ -301,7 +299,6 @@ if (CONFIG.DEBUG_MODE) {
   console.log('%c[Custom Web Pixel] Active', 'color: #00ff00; font-weight: bold');
   console.log('Container:', CONFIG.GOOGLE_TAG_ID);
   console.log('GA4:', CONFIG.IDS.ga4);
-  console.log('Google Ads:', CONFIG.IDS.googleAds);
   console.log('Method: gtag()');
   console.log('Item ID: SKU-based (with fallback)');
   console.log('Features: Clean product names, dynamic categories');

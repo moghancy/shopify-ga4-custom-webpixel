@@ -23,9 +23,7 @@ A custom web pixel for Shopify that sends complete e-commerce tracking events di
 const CONFIG = {
   GOOGLE_TAG_ID: 'GT-XXXXXXX',  // Your Google Tag Container ID
   IDS: {
-    ga4: 'G-XXXXXXX',           // Your GA4 Measurement ID
-    googleAds: 'AW-XXXXXXX',    // Your Google Ads ID
-    merchantCenter: 'MC-XXXXXXX' // Your Merchant Center ID
+    ga4: 'G-XXXXXXX',
   },
   CURRENCY: 'EUR',
   DEBUG_MODE: false
