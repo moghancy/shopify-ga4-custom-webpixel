@@ -157,12 +157,12 @@ function sendEvent(eventName, params) {
 
 // E-Commerce Event Subscriptions
 
-analytics.subscribe('page_viewed', (event) => {
-  sendEvent('page_view', {
-    page_title: event.context.document.title,
-    page_location: event.context.document.location.href
-  });
-});
+// analytics.subscribe('page_viewed', (event) => {
+//   sendEvent('page_view', {
+//     page_title: event.context.document.title,
+//     page_location: event.context.document.location.href
+//   });
+// });
 
 analytics.subscribe('product_viewed', (event) => {
   const item = formatItem(event.data.productVariant);
